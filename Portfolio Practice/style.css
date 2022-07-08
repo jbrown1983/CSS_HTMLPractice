@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Edu QLD Beginner", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(113, 74, 145);
+}
+
+section{
+    width: 100%;
+    height: 100px;
+    /* background-color: #234def; */
+    background-image: repeating-linear-gradient( red, yellow );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-me {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(177,69,21,0.8); 
+    /* the 0.8 at the end of the RGB makes it tranparent */
+    margin-top:  10px 0 10px 0;
+    /* border: solid black 10px; */
+    border-radius: 15px;
+}
+
+.headshot{
+    width: 100px;
+    border-radius: 50px;
+}
+
+#name{
+    color: blueviolet;
+}
+
+.test{
+    width: 30px;
+    height: 30px;
+    background: red;
+    margin: 5px;
+}
+
+#main{
+     box-shadow: 2px 2px 5px green;
+}
+
+button{
+    border: 0;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 2.5;
+    color: white;
+    text-shadow: 1px, 1px, 1px #000;
+    background-color: rgb(104, 54, 151);
+    background-image: linear-gradient(
+        to top left
+        rgba(0,0,0,0.2)
+        rgba(0,0,0,0.2) 30%,
+        rgba(0,0,0));
+box-shadow: 
+        inset 2px 2px 3px 
+        rgba(255,255,255,0.6), 
+        inset -2px -2px 3px
+        rgba(0,0,0,0.6);
+border-radius: 10px;
+}
+
+button:hover {
+    background-color: lightseagreen;
+}
+
+button:active {
+    box-shawdow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+}
+
+a {
+    text-decoration: none;
+}

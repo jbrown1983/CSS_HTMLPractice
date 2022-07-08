@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(212, 98, 56);
+    display: flex;
+}
+
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(219, 219, 82);
+    border-radius: 20%;
+    margin: 10px;
+
+}
+
+.two{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(219, 219, 82);
+    border-radius: 20%;
+    margin: 10px;
+
+}
+.three{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(219, 219, 82);
+    border-radius: 20%;
+    margin: 10px;
+
+}
+.four{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(219, 219, 82);
+    border-radius: 20%;
+    margin: 10px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
